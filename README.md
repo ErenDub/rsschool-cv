@@ -1,1 +1,1 @@
-# rsschool-cv
+https://erendub.github.io/rsschool-cv/cv
