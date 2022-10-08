@@ -53,3 +53,9 @@ const onSubmit = (data: LoginFormFields) => {
 ## Education
 
 - 2019-2023 Batumi State University
+
+## Languages
+
+Georgian - Native speaker
+English - B1
+Russian - A2
