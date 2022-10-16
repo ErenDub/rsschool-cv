@@ -143,3 +143,49 @@ code{
     padding: 0 10px;
     margin: 10px 0;
 }
+.main__skills-box {
+    background-color: rgb(220, 220, 220);
+    padding: 10px 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.main__skills-box ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    
+}
+.code-box{
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+/* Footger */
+
+.footer-box{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.footer-box-item{
+    max-width: 1200px;
+    width: 100%;
+    background-color: #d7d7d7c3;
+    border-radius: 5px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__github img{
+    height: 30px;
+    width: auto;
+}
+.footer__rs-school img{
+    height: 40px;
+    width: auto;
+}
+.footer__date{
+    font-weight: 600
+}
