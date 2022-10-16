@@ -152,12 +152,12 @@
           <div class="main__content-box">
             <pre class="code-box">
                 <code>
-const onSubmit = (data: LoginFormFields) => {
+const onSubmit (data: LoginFormFields) {
   const { login, password } = data
   $login.mutate(
     { login, password },
       {
-        onSuccess: ({ ...args }) => {
+        onSuccess: ({ ...args }) {
           setAuthData({ ...args })
         },
       ,
